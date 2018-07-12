@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/clickDemo/clickDemo"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "帮我取下饭谢谢",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar":{
+    "color": "#000000",
+    "borderStyle": "black",
+    "selectedColor": "#9999FF",
+    "list":[{
+      "pagePath": "pages/clickDemo/clickDemo",
+      "text": "取饭",
+      "iconPath": "image/order.png",
+      "selectedIconPath": "image/order.png"
+    },{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "image/home.png",
+      "selectedIconPath": "image/home.png"
+      },{
+      "pagePath": "pages/logs/logs",
+      "text": "日志",
+      "iconPath": "image/log.png",
+      "selectedIconPath": "image/log.png"
+      }
+    ]
+  },
+  "networkTimeout":{
+    "request":10000,
+    "downloadFile":10000
+  },
+  "debug":true
+}
